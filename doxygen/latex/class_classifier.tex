@@ -1,0 +1,66 @@
+\hypertarget{class_classifier}{}\doxysection{Classifier Class Reference}
+\label{class_classifier}\index{Classifier@{Classifier}}
+
+
+The decloration of \mbox{\hyperlink{class_classifier}{Classifier}} class.  
+
+
+
+
+{\ttfamily \#include $<$Classifier.\+h$>$}
+
+Inheritance diagram for Classifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_classifier_a835329e160ac9697fc79c9e02cbe5135}\label{class_classifier_a835329e160ac9697fc79c9e02cbe5135}} 
+virtual double {\bfseries Classify} (\mbox{\hyperlink{class_position}{Position}} unknown)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_classifier_ac24c977681c618797d44e211c96d147e}{Classifier}} (std\+::string text\+File)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_classifier_a56d792edd80fd8d91fdf8f6b82c10530}\label{class_classifier_a56d792edd80fd8d91fdf8f6b82c10530}} 
+std\+::vector$<$ \mbox{\hyperlink{class_position}{Position}} $>$ {\bfseries position\+Arr}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The decloration of \mbox{\hyperlink{class_classifier}{Classifier}} class. 
+
+This function is the base funtion for everything. it is an abtract class, it has a pure virtual classify function called classify, it has a contructor because this constructor is called when the child classes are called. it also has a vector that holds positions. \begin{DoxyAuthor}{Author}
+Milan \& Eric 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/18/2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_classifier_ac24c977681c618797d44e211c96d147e}\label{class_classifier_ac24c977681c618797d44e211c96d147e}} 
+\index{Classifier@{Classifier}!Classifier@{Classifier}}
+\index{Classifier@{Classifier}!Classifier@{Classifier}}
+\doxysubsubsection{\texorpdfstring{Classifier()}{Classifier()}}
+{\footnotesize\ttfamily Classifier\+::\+Classifier (\begin{DoxyParamCaption}\item[{std\+::string}]{text\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+This is the classifier contructor, which reads from a file and takes a known point and puts it into a positon vector. This is how the training is done \begin{DoxyAuthor}{Author}
+Milan \& Eric
+\end{DoxyAuthor}
+Input\+: a textfile name in the form of a string, in this implementaiton it has to be known, so it is the training\+Data.\+txt Return parameter\+: n/a \begin{DoxyDate}{Date}
+4/18/2021 
+\end{DoxyDate}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Milan/source/repos/\+Group-\/2-\/\+Lab-\/8-\/9-\/\+Milan-\/\+Eric/\+Group-\/2-\/\+Lab-\/8-\/9-\/\+Milan-\/\+Eric/\mbox{\hyperlink{_classifier_8h}{Classifier.\+h}}\item 
+C\+:/\+Users/\+Milan/source/repos/\+Group-\/2-\/\+Lab-\/8-\/9-\/\+Milan-\/\+Eric/\+Group-\/2-\/\+Lab-\/8-\/9-\/\+Milan-\/\+Eric/\mbox{\hyperlink{_classifier_8cpp}{Classifier.\+cpp}}\end{DoxyCompactItemize}
